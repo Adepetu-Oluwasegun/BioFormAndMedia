@@ -1,0 +1,139 @@
+
+body {
+    font-weight: 550;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;  /* Light background color for the page */
+    color: #333;                /* Dark text color for readability */
+}
+
+/* Header Styles */
+.site_header {
+    background-color: #004080;   /* Dark blue background for header */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;                /* Set logo size */
+    height: auto;
+    border-radius: 8px;         
+}
+
+/* Navigation Bar Styles */
+.navbar ul {
+    list-style: none;            /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;               /* Display items in a row */
+    justify-content: center;     /* Center the navigation items */
+    background-color: #0066cc;   /* Slightly lighter blue for navbar */
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;       /* Remove underline from links */
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #004080;   /* Dark blue on hover */
+    border-radius: 4px;          
+}
+
+/* Main Content Styles */
+.container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+h1, h2 {
+    color: #004080;              /* Dark blue for headers */
+}
+
+.top_section {
+    text-align: center;          /* Center align the name and student ID */
+    margin-bottom: 20px;
+}
+
+.top_section h1 {
+    font-size: 36px;             /* Larger font size for the name */
+}
+
+.biography_section, .reasons_section, .goals_section {
+    margin-bottom: 30px;
+}
+
+.biography_section p {
+    text-align: justify;         /* Justify the text for a clean look */
+    line-height: 1.8;            /* Increase line height for readability */
+}
+
+/* List Styles */
+.reasons_section ul, .goals_section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.reasons_section ul li, .goals_section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004080;   /* Dark blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Back to Top Link */
+a[href="#main"] {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a[href="#main"]:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .site_header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar ul {
+      flex-direction: column;
+  }
+
+  .navbar li {
+      margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: right ;
+  align-items: right;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  height: 126vh;
+}
+
+.container_1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 470;
+  background: #fffcfc;
+  align-items: center;
+  width: 47%;
+  margin: 20px;  
+}
+
+#image img{
+  width: 550px;
+  max-width: 100%;
+  height: auto;
+}
+
+.con1-text{
+  margin-top: 20px;
+  background-color: #fffcfc;
+  color: black;
+  margin: 0px 0px 25px;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icons{
+  display: flex;
+  width: 90.5%;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
+  align-items: center;
+}
+
+a[href="https://twitter.com/yourprofile"] {
+ color: #1DA1F2;
+}
+
+a[href="https://instagram.com/yourprofile"] {
+  color: #1DA1F2;
+ }
+
+ a[href="https://facebook.com/yourprofile"] {
+  color: #1DA1F2;
+ }
+
+ a[href="https://linkedin.com/in/yourprofile"] {
+  color: #1DA1F2;
+ }
+
+ #footera{
+  text-align: center;
+ }
+
+
+ #footera h3{
+  font-size: 16px;
+  color: black;
+ }
+
+.container{
+  max-width: 500;
+  width: 50%;
+  background: #fff;
+  padding: 25px 30px;
+  position: relative;
+  font-size: 12px;
+}
+
+#Altschoolers{
+display: flex;
+justify-content: right;
+font-size: 16px;
+}
+
+.container h1 ::before{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  left: 0;
+  bottom: 0;
+}
+
+.container form .signup-details{
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  left: 0;
+  bottom: 0;
+}
+
+.container form .user_details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user_details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+.user_details .input-box .details{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user_details .input-box input{
+  height: 35px;
+  width: 85%;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid;
+  padding: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: 0.3s;
+}
+.user_details .input-box input:hover{
+border-color: lightblue;
+}
+
+form .category .details{
+  font-size: 16px;
+}
+
+form .category11 #Gender{
+  display: flex;
+  flex-wrap: wrap;
+  width: 282.5px;
+  height: 69px;
+  position: relative;
+  top: 5px;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+form .category #country {
+  display: flex;
+  flex-wrap: wrap;
+  width: 282.5px;
+  position: relative;
+  top: 5px;
+  border-radius: 6px;
+  height: 69px;
+  padding-left: 10px;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+form .category .details{
+  font-size: 12px;
+}
+
+ .Category-2 label {
+  display: flex;
+  flex-wrap: wrap;
+  width: 470px;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 12px;
+  justify-content: space-between;
+ }
+ 
+#channels {
+  display: block ;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  width: calc(250% / 2 - 20px);
+  height: 50px;
+  position: relative;
+  top: -10px;
+  padding-left: 10px;
+}
+
+.Category-2 label{
+  padding-left: 0.5%;
+}
+
+#channels :hover {
+  border-color: lightblue;
+}
+
+.container button{
+  display: flex;
+  font-size: 16px;
+  background-color: #6A6ff5;
+  padding: 16px 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  line-height: 22px;
+  width: 621.047px;
+  height: 50px;
+  border-radius: 6px;
+  padding-block-end: 16px;
+  padding-block-start: 16px;
+  color: white;  
+}
+
+button .fa-arrow-right {
+   margin-left: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+
+    h1 {
+        top: 10px;
+        right: 10px;
+        font-size: 16px;
+    }
+    
+}

@@ -1,0 +1,68 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #004080;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  display: flex;
+  height: auto;
+  border-radius: 8px;
+}
+
+header h2 {
+  margin: 15px 0 0 0;
+  font-size: 24px;
+}
+
+/* Table styles */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+table, th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: #004080;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  header h2 {
+      font-size: 20px;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  th, td {
+      font-size: 14px;
+      padding: 8px;
+  }
+}
