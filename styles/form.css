@@ -21,7 +21,7 @@ body {
   background: #fffcfc;
   align-items: center;
   width: 47%;
-  margin: 20px;  
+  padding-top: 67px;
 }
 
 #image img{
@@ -146,7 +146,7 @@ form .category .details{
 form .category11 #Gender{
   display: flex;
   flex-wrap: wrap;
-  width: 282.5px;
+  width: 294.6px;
   height: 69px;
   position: relative;
   top: 5px;
@@ -159,7 +159,7 @@ form .category11 #Gender{
 form .category #country {
   display: flex;
   flex-wrap: wrap;
-  width: 282.5px;
+  width: 294.6px;
   position: relative;
   top: 5px;
   border-radius: 6px;
@@ -188,7 +188,7 @@ form .category .details{
   justify-content: space-between;
   margin-bottom: 15px;
   border-radius: 6px;
-  width: calc(250% / 2 - 20px);
+  width: calc(260% / 2 - 20px);
   height: 50px;
   position: relative;
   top: -10px;
